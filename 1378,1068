@@ -1,4 +1,4 @@
-Q: Write a solution to show the unique ID of each user, If a user does not have a unique ID replace just show null.
+Q: 1378 Write a solution to show the unique ID of each user, If a user does not have a unique ID replace just show null.
 
 Return the result table in any order.
 
@@ -45,5 +45,12 @@ SELECT e1.unique_id, e.name
 FROM Employees AS e
 LEFT JOIN EmployeeUNI AS e1 ON e.id = e1.id
 ORDER BY e1.id;
+
+#1068
+# Write your MySQL query statement below
+#LEFT JOIN
+SELECT p1.product_name,p.year,p.price 
+FROM Sales as p
+LEFT JOIN  Product as p1 ON p1.product_id=p.product_id;
 
 
