@@ -3,7 +3,8 @@ Q: 1378 Write a solution to show the unique ID of each user, If a user does not 
 Return the result table in any order.
 
 The result format is in the following example.
-
+//LEFT JOIN me left se jitne row right me repeat ho rahe utne hi left me ro ayenge
+ll left me 1 row right me wahi 3 bar hai to merge  karenge
  
 
 Example 1:
